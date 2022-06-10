@@ -63,4 +63,4 @@ Since the percentage of 5-star unpaid reviews is higher than the percentage of p
 
 Additional analyses that I could do with the dataset to support my statement include:
 Analyzing only verified purchases using the `verified_purchases` column would also help determine the certainty of a positivity bias. 
-I could also find what percentage of Vine and non-Vine reviews are 3 and 4 star-reviews to see how those numbers compare.
+I could also find the percentage of Vine and non-Vine reviews that are 3 and 4 star-reviews to see how those numbers compare.
