@@ -6,6 +6,8 @@ The purpose of this analysis is to analyze Amazon reviews written by members of 
 
 > The Amazon Vine program is a service that allows manufacturers and publishers to receive reviews for their products. Companies like SellBy pay a small fee to Amazon and provide products to Amazon Vine members, who are then required to publish a review.
 
+<img src="https://github.com/stephperillo/Amazon_Vine_Analysis/blob/main/Resources/costume.jpg" alt="costume" width="500"/>
+
 I chose the Pet Products reviews dataset out of approximately 50 Amazon datasets. I used PySpark to extract the dataset, transform the data, connect to an Amazon Web Services (AWS) Relational Database Service (RDS) instance, and load the transformed data into pgAdmin (ETL). Then I used Pandas to determine if there is any bias toward favorable reviews from Vine members in this dataset.
 
 ## Results
@@ -20,6 +22,8 @@ After renaming the column, the `customers_table_df` now matches the schema for p
 
 `products_df`:
 ![products_df.png](https://github.com/stephperillo/Amazon_Vine_Analysis/blob/main/Resources/products_df.png)
+
+<img src="https://github.com/stephperillo/Amazon_Vine_Analysis/blob/main/Resources/stroller.jpg" alt="costume" width="250"/>
 
 `review_id_df`:
 ![review_id_df.png](https://github.com/stephperillo/Amazon_Vine_Analysis/blob/main/Resources/review_id_df.png)
