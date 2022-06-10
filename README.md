@@ -31,9 +31,11 @@ After renaming the column, the `customers_table_df` now matches the schema for p
 `vine_df`:
 ![vine_df.png](https://github.com/stephperillo/Amazon_Vine_Analysis/blob/main/Resources/vine_df.png)
 
+I uploaded the transformed data into the appropriate tables and ran queries in pgAdmin to confirm that the data was uploaded.
+
 - How many Vine reviews and non-Vine reviews were there?
 
-There were 10,215 Vine reviews and 2,633,399 non-Vine reviews.
+There were 10,215 Vine reviews and 2,633,399 non-Vine reviews for Pet Products in this dataset.
 
 ![total_reviews.png](https://github.com/stephperillo/Amazon_Vine_Analysis/blob/main/Resources/total_reviews.png)
 
@@ -55,7 +57,7 @@ Out of all of the 5-star reviews, there were 4,343 Vine reviews and 1,641,210 no
 
 Is there any positivity bias for reviews in the Vine program?
 
-Since the percentage of 5-star unpaid reviews is higher than the percentage of paid 5-star reviews, there is not a large amount of evidence proving extreme positivity bias. That is not to say that there is no option of any positivity bias. 
+Since the percentage of 5-star unpaid reviews is higher than the percentage of paid 5-star reviews, there is not a large amount of evidence proving extreme positivity bias. That is not to say that there is no positivity bias. 
 
 ##### Recommendations
 
